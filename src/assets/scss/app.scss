@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-gray-800 text-white;
+  }
+}
+
+.form-input {
+  @apply w-full bg-transparent text-white border-white rounded;
+}
